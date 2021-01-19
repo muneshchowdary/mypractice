@@ -12,7 +12,7 @@ provider aws {
 resource "aws_instance" "sample" {
     
     ami = "ami-00d1b5cc1e5341681"
-    type = "t2.micro"
+    instance_type = "t2.micro"
 }
 
 resource "aws_vpc" "sample" {
